@@ -42,6 +42,8 @@ function appointment_archy_theme_css() {
 	wp_enqueue_style( 'child-media-responsive', get_stylesheet_directory_uri() . '/css/media-responsive.css');
 	wp_enqueue_style( 'child-custom', 			get_stylesheet_directory_uri() . '/css/custom.css');
 
+  wp_enqueue_style('gen-plan', get_stylesheet_directory_uri() . '/css/genplan.css');
+
 }
 
 /*

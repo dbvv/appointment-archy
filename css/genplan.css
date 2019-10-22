@@ -1,0 +1,37 @@
+@font-face {
+  src: url(./acrobat/Akrobat-Regular.ttf);
+  font-family: 'Akrobat';
+  font-weight: 400;
+}
+
+.genplan h1 {
+  font-weight: 500;
+}
+.genplan .plan {
+  font-size: 23px;
+  line-height: 27px;
+  margin-bottom: 80px;
+  margin-top: 44px;
+}
+
+.genplan .plan-description {
+  position: relative;
+  min-height: 348px;
+}
+
+.fixed-button {
+  position: absolute;
+  bottom: 10px;
+  left: 30%;
+}
+
+.btn.btn-checkout {
+  color: #fff;
+  background: #1C2536;
+  padding: 10px 20px;
+  font-family: 'Akrobat';
+  /*font-size: 21px;*/
+}
+.btn.btn-checkout:hover {
+  background: #23527c;
+}

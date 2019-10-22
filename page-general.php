@@ -10,18 +10,19 @@ get_header();
 
 ?>
 <!-- Blog Section Right Sidebar -->
-<div class="page-builder">
+<div class="page-builder genplan">
 
   <!-- hero section -->
   <div class="container hero-section">
     <div class="row">
-      <div class="col-sm-12 col-md-6">
+      <div class="col-sm-12 col-md-6 text-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pYMGH3Vp2qc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p>Посмотрите наглядное описание курса от его автора - Игоря Рогачева</p>
       </div>
-      <div class="col-sm-12 col-md-6">
-        <h1 class="text-uppercase">ПОЛНЫЙ КУРС ПО ГЕН.ПЛАНУ В CIVIL 3D</h1>
+      <div class="col-sm-12 col-md-6 plan-description">
+        <h1 class="text-uppercase">ПОЛНЫЙ КУРС ПО<br/> ГЕН.ПЛАНУ В CIVIL 3D</h1>
         <p class="plan">Реализация генплана в рамках Civil 3D различными способами и инструментами</p>
-        <a href="" class="btn btn-success">В КОРЗИНУ</a>
+        <a href="" class="btn btn-checkout fixed-button">В КОРЗИНУ</a>
       </div>
     </div>
   </div>
