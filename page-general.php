@@ -37,22 +37,107 @@ get_header();
   <!-- end course descritpion -->
 
   <div class="course-author container-fluid">
-    <h1 class="text-center">У КОГО БУДЕТЕ ОБУЧАТЬСЯ?</h1>
-    <div class="row">
-      <div class="col-sm-12 col-md-8">
-        <ul>
-          <li>Основатель портала InfraBIM.Pro. <b>Один из ведущих специалистов в области BIM для инфраструктуры в России.</b> В 2011 году разработал первый базовый общедоступный видеокурс AutoCAD Civil 3D.  </li>
-          <li>Опыт преподавания AutoCAD Civil 3D более 10 лет. Первым в России разработал и провел курс по Autodesk Infraworks для партнеров Autodesk.  </li>
-          <li> Принимал участие в разработке адаптации к нормам проектирования РФ (Country kit) для AutoCAD Civil       3D и Autodesk InfraWorks.  </li>
-          <li>Включён в состав экспертного совета при Министерстве строительства РФ, по вопросам поэтапного внедрения BIM-технологий в области промышленного и гражданского строительства.  </li>
-          <li>В 2014-2017 годах удостоен персональной наградой «BIM лидер в России» от компании Autodesk. Состоит в клубах BIM лидеров России по архитектуре и инфраструктуре.  </li>
-          <li>Принимал участие в разработке перового открытого BIM стандарта Autodesk для архитектуры и инфраструктуры для России и последующих его редакций.  </li>
-          <li>Входит в команду по разработке регламентов в области BIM для Федерального дорожного агентства «Росавтодор».  </li>
-          <li>Первым в России получил статус Autodesk Elite Expert в области инфраструктуры.  </li>
-          <li> Сертификаты Authorized Instructor Autodesk и Autodesk Civil 3D Certified Professional.</li>
-        </ul>
+    <div class="container">
+      <h1 class="text-center">У КОГО БУДЕТЕ ОБУЧАТЬСЯ?</h1>
+      <div class="row">
+        <div class="col-sm-12 col-md-8">
+          <ul>
+            <li>Основатель портала InfraBIM.Pro. <b>Один из ведущих специалистов в области BIM для инфраструктуры в России.</b> В 2011 году разработал первый базовый общедоступный видеокурс AutoCAD Civil 3D.  </li>
+            <li>Опыт преподавания AutoCAD Civil 3D более 10 лет. <b>Первым в России разработал и провел курс по Autodesk Infraworks</b> для партнеров Autodesk.  </li>
+            <li> Принимал участие в разработке адаптации к нормам проектирования РФ (Country kit) для AutoCAD Civil       3D и Autodesk InfraWorks.  </li>
+            <li><b>Включён в состав экспертного совета при Министерстве строительства РФ</b>, по вопросам поэтапного внедрения BIM-технологий в области промышленного и гражданского строительства.  </li>
+            <li><b>В 2014-2017 годах удостоен персональной наградой «BIM лидер в России» от компании Autodesk.</b> Состоит в клубах BIM лидеров России по архитектуре и инфраструктуре.  </li>
+            <li>Принимал участие в разработке перового открытого BIM стандарта Autodesk для архитектуры и инфраструктуры для России и последующих его редакций.  </li>
+            <li>Входит в команду по разработке регламентов в области BIM для Федерального дорожного агентства «Росавтодор».  </li>
+            <li><b>Первым в России получил статус Autodesk Elite Expert в области инфраструктуры.
+              </b></li>
+            <li> Сертификаты Authorized Instructor Autodesk и Autodesk Civil 3D Certified Professional.</li>
+          </ul>
+        </div>
       </div>
     </div>
+  </div>
+
+  <div class="container participation-variants">
+    <h2>ВАРИАНТЫ УЧАСТИЯ</h2>
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="panel panel-primary participation">
+          <div class="panel-heading">
+            <p class="tarif-name">СТАНДАРТ</p>
+            <hr>
+            <p class="price">15 000₽</p>
+            <p class="old-price">18 000₽</p>
+          </div>
+          <div class="panel-body">
+            <p>Курс по генеральноому плану состоящий из 8 разделов и 31 уроков</p>
+            <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="panel panel-primary participation">
+          <div class="panel-heading">
+            <p class="tarif-name">РАСШИРЕННЫЙ</p>
+            <hr>
+            <p class="price">25 000₽</p>
+            <p class="old-price">32 000₽</p>
+          </div>
+          <div class="panel-body">
+            <p>Курс по генеральноому плану состоящий из 8 разделов и 31 уроков  </p>
+            <p>+5 часов персональных консультаций</p>
+            <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="panel panel-primary participation">
+          <div class="panel-heading">
+            <p class="tarif-name">ПРОФЕССИОНАЛ</p>
+            <hr>
+            <p class="price">50 000₽</p>
+            <p class="old-price">78 000₽</p>
+          </div>
+          <div class="panel-body">
+            <p>Курс по генеральноому плану состоящий из 8 разделов и 31 уроков  </p>
+            <p>+10 часов персональных консультаций  </p>
+            <p> +Разработка шаблонов</p>
+            <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="panel panel-primary participation">
+          <div class="panel-heading">
+            <p class="tarif-name">СТАНДАРТ</p>
+            <hr>
+            <p class="price">120 000₽</p>
+            <p class="old-price">180 000₽</p>
+          </div>
+          <div class="panel-body">
+            <p>Курс по генеральноому плану состоящий из 8 разделов и 31 уроков  </p>
+            <p><b>Полное ведение конкретного проекта</b></p>
+            <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end particitipation -->
+
+  <!-- course price -->
+  <div class="container course-price text-center">
+    <h3>В СТОИМОСТЬ КУРСА ВХОДИТ:  </h3>
+    <p>Бессрочный доступ к онлайн курсу </p>
+    <p>Ответы на вопросы по прохождению курса </p>
+    <p>Шаблон для работы с ГП</p>
+  </div>
+  <!-- end course price -->
+
+  <div class="container text-center any-questions">
+    <h2>ОСТАЛИСЬ ВОПРОСЫ? </h2>
+    <p>Если возникли вопросы по составу курса или его оплате, то задайте их в нашем сообществе <a href="/">InfraBIM.Pro</a></p>
+    <a href="" class="btn btn-checkout">ЗАДАТЬ ВОПРОС</a>
   </div>
   
 </div>

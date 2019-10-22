@@ -1,6 +1,6 @@
 [-] initial release
   [X] import all images
-  [ ] base html structure for main page
+  [X] base html structure for main page
   [ ] base styling for main page
 [ ] second page structure and styling
 [ ] show ops to create fully fillbable from admins
