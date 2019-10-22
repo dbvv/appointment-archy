@@ -4,7 +4,7 @@
   font-weight: 400;
 }
 
-.genplan h1 {
+.genplan h1, .genplan h2 {
   font-weight: 500;
 }
 .genplan .plan {
@@ -28,10 +28,79 @@
 .btn.btn-checkout {
   color: #fff;
   background: #1C2536;
-  padding: 10px 20px;
+  padding: 5px 20px;
   font-family: 'Akrobat';
+  border-radius: 10px;
   /*font-size: 21px;*/
 }
 .btn.btn-checkout:hover {
   background: #23527c;
+}
+
+.genplan .section {
+  margin-bottom: 40px;
+}
+
+.genplan .panel.panel-primary {
+  border-color: #1C2536;
+  text-align: center;
+}
+
+.genplan .panel.panel-primary .panel-heading {
+  background: #1C2536;
+  border-color: #1C2536;
+  color: #fff;
+}
+.genplan .panel.panel-primary .panel-heading p {
+  color: #fff;
+}
+
+.tarif-name, .old-price {
+  font-size: 21px;
+  line-height: 25px;
+}
+.old-price {
+  text-decoration: line-through;
+}
+.price {
+  font-size: 35px;
+}
+
+.participation-variants .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.participation-variants .row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.participation-variants .row > [class*='col-'] .panel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.participation-variants .row > [class*='col-'] .panel .panel-body {
+  /*-bottom: 60px;*/
+  position: relative;
+  min-height: 283px;
+}
+
+.participation-variants .row > [class*='col-'] .panel .panel-body .checkout {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+}
+
+.participation-variants .row > [class*='col-'] .panel .panel-body p {
+  font-weight: normal;
+}
+
+.participation-variants .row > [class*='col-'] .panel .panel-body a.btn.btn-checkout {
+  position: relative;
+  left: -50%;
 }

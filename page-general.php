@@ -13,7 +13,7 @@ get_header();
 <div class="page-builder genplan">
 
   <!-- hero section -->
-  <div class="container hero-section">
+  <div class="container hero-section section">
     <div class="row">
       <div class="col-sm-12 col-md-6 text-center">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/pYMGH3Vp2qc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -29,7 +29,7 @@ get_header();
   <!-- end hero section -->
 
   <!-- course description -->
-  <div class="container course-description">
+  <div class="container course-description section">
     <h2>ОПИСАНИЕ КУРСА</h2>
     <p>Раздел Генеральный план может быть реализован полностью в рамках Civil 3D. Отличительной особенностью данного раздела является то, что в Civil 3D он может быть выполнен совершенно различными способами и инструментами. Мы постарались охватить в этом курсе наиболее распространённые способы, с детальным объяснением всех преимуществ и недостатков. После прохождения курса вы сможете сами подобрать для себя наиболее оптимальный способ или разработать собственный.</p>
     <p>Внимание! Данный курс затрагивает функционал Civil 3D версии 2018 и старше. В более младших версиях выполнение данного курса будет может быть проблематично.</p>
@@ -37,7 +37,7 @@ get_header();
   </div>
   <!-- end course descritpion -->
 
-  <div class="course-author container-fluid">
+  <div class="course-author container-fluid section">
     <div class="container">
       <h1 class="text-center">У КОГО БУДЕТЕ ОБУЧАТЬСЯ?</h1>
       <div class="row">
@@ -59,8 +59,8 @@ get_header();
     </div>
   </div>
 
-  <div class="container participation-variants">
-    <h2>ВАРИАНТЫ УЧАСТИЯ</h2>
+  <div class="container participation-variants section">
+    <h2 class="text-center">ВАРИАНТЫ УЧАСТИЯ</h2>
     <div class="row">
       <div class="col-sm-6 col-md-3">
         <div class="panel panel-primary participation">
@@ -72,7 +72,9 @@ get_header();
           </div>
           <div class="panel-body">
             <p>Курс по генеральноому плану состоящий из 8 разделов и 31 уроков</p>
-            <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+            <div class="checkout">
+              <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+            </div>
           </div>
         </div>
       </div>
@@ -87,7 +89,9 @@ get_header();
           <div class="panel-body">
             <p>Курс по генеральноому плану состоящий из 8 разделов и 31 уроков  </p>
             <p>+5 часов персональных консультаций</p>
-            <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+            <div class="checkout">
+              <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+            </div>
           </div>
         </div>
       </div>
@@ -103,7 +107,9 @@ get_header();
             <p>Курс по генеральноому плану состоящий из 8 разделов и 31 уроков  </p>
             <p>+10 часов персональных консультаций  </p>
             <p> +Разработка шаблонов</p>
-            <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+            <div class="checkout">
+              <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+            </div>
           </div>
         </div>
       </div>
@@ -118,7 +124,9 @@ get_header();
           <div class="panel-body">
             <p>Курс по генеральноому плану состоящий из 8 разделов и 31 уроков  </p>
             <p><b>Полное ведение конкретного проекта</b></p>
-            <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+            <div class="checkout">
+              <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+            </div>
           </div>
         </div>
       </div>
@@ -127,7 +135,7 @@ get_header();
   <!-- end particitipation -->
 
   <!-- course price -->
-  <div class="container course-price text-center">
+  <div class="container course-price text-center section">
     <h3>В СТОИМОСТЬ КУРСА ВХОДИТ:  </h3>
     <p>Бессрочный доступ к онлайн курсу </p>
     <p>Ответы на вопросы по прохождению курса </p>
@@ -135,7 +143,7 @@ get_header();
   </div>
   <!-- end course price -->
 
-  <div class="container text-center any-questions">
+  <div class="container text-center any-questions section">
     <h2>ОСТАЛИСЬ ВОПРОСЫ? </h2>
     <p>Если возникли вопросы по составу курса или его оплате, то задайте их в нашем сообществе <a href="/">InfraBIM.Pro</a></p>
     <a href="" class="btn btn-checkout">ЗАДАТЬ ВОПРОС</a>
