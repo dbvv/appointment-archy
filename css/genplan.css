@@ -4,7 +4,15 @@
   font-weight: 400;
 }
 
-.genplan h1, .genplan h2 {
+.genplan p {
+  font-weight: normal;
+}
+
+.genplan iframe {
+  max-width: 100%;
+  height: auto;
+}
+.genplan h1, .genplan h2, .genplan h3 {
   font-weight: 500;
 }
 .genplan .plan {
@@ -24,14 +32,32 @@
   bottom: 10px;
   left: 30%;
 }
+.course-author {
+  position: relative;
+}
+.author-clipped {
+  clip-path: polygon(100% 1%, 100% 100%, 18% 100%, 18% 21%, 0 0);
+  position: absolute;
+  right: 0;
+  top: 60px;
+  bottom: 0;
+}
+.author-clipped img {
+  max-height: 100%;
+
+  /*width: auto;*/
+}
+.course-author ul {
+  list-style-type: none;
+  padding-left: 0;
+}
 
 .btn.btn-checkout {
   color: #fff;
   background: #1C2536;
   padding: 5px 20px;
   font-family: 'Akrobat';
-  border-radius: 10px;
-  /*font-size: 21px;*/
+  border-radius: 5px;
 }
 .btn.btn-checkout:hover {
   background: #23527c;
@@ -103,4 +129,8 @@
 .participation-variants .row > [class*='col-'] .panel .panel-body a.btn.btn-checkout {
   position: relative;
   left: -50%;
+}
+
+.course-price p {
+  margin: 0;
 }

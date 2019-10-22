@@ -54,8 +54,15 @@ get_header();
               </b></li>
             <li> Сертификаты Authorized Instructor Autodesk и Autodesk Civil 3D Certified Professional.</li>
           </ul>
+          <br>
+          <br>
+          <div class="pull-right">Игорь Рогачев</div>
         </div>
       </div>
+    </div>
+
+    <div class="author-clipped">
+      <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/css/author.jpg" alt=""/>
     </div>
   </div>
 
