@@ -11,10 +11,12 @@ get_header();
   <div class="container-fluid author section">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-md-7">
+        <div class="col-xs-12 col-sm-7 col-md-7">
           <h1>БЕСПЛАТНЫЙ БАЗОВЫЙ <br> КУРС AUTODESK CIVIL 3D</h1>
-          <p class="course-description">7 основных разделов, которые должен знать каждый инженер работающий в Civil3D</p>
-          <a href="#" class="btn btn-checkout">ПОЛУЧИТЬ КУРС</a>
+          <p class="course-description">7 основных разделов, которые<br> должен знать каждый инженер <br> работающий в Civil3D</p>
+          <div class="text-center">
+            <a href="#" class="btn btn-checkout btn-lg text-center">ПОЛУЧИТЬ КУРС</a>
+          </div>
         </div>
       </div>
     </div>
@@ -33,13 +35,16 @@ get_header();
   <!-- end course review -->
 
   <!-- reviews -->
-  <div class="container reviews">
+  <div class="container reviews section">
     <h2 class="text-center">ОТЗЫВЫ О КУРСЕ</h2>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/css/reviews.png" alt="" class="img-responive">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/css/reviews.png" alt="" class="img-responsive">
   </div>
   <!-- end reviews -->
-
-  a.btn.btn-checkout
+  
+  <!-- c2a button -->
+  <div class="c2a-button text-center section">
+    <a href="#" class="btn btn-checkout btn-lg text-center">ПОЛУЧИТЬ КУРС</a>
+  </div>
 </div>
 
 <?php

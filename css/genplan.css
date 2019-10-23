@@ -68,6 +68,11 @@
 .btn.btn-checkout:hover {
   background: #23527c;
 }
+.btn.btn-checkout.btn-lg {
+  padding: 24px 64px;
+  font-size: 24px;
+  border-radius: 15px;
+}
 
 .genplan .section {
   margin-bottom: 40px;
@@ -139,4 +144,33 @@
 
 .course-price p {
   margin: 0;
+}
+
+.genplan .author {
+  padding-top: 58px;
+  background: url(./autor-banner.png);
+  background-repeat: no-repeat;
+  background-position: right 0px top;
+}
+
+.course-description {
+  font-size: 4.5rem;
+  line-height: 4.3rem;
+  color: #1C2536;
+  font-family: 'Akrobat';
+  margin-top: 61px;
+  margin-bottom: 44px;
+}
+
+@media screen and (max-width: 1024px) {
+  .course-description {
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .genplan .author {
+    background: none;
+  }
 }
