@@ -27,10 +27,11 @@ get_header();
   <div class="course-review section container">
     <h2>ЧТО ВЫ УЗНАЕТЕ НА КУРСЕ?</h2>
     <p>Курс, который был разработан <a href="httpss://infrabim.pro/рогачёв-игорь-витальевич/">Игорем Рогачёвым</a> и стал уже классическим. По нему выучилось не одно поколение инженеров. Курс стал очень популярным и своего рода стандартом для широкого круга инженеров применяющих Civil 3D в своей практике. Безусловно именно с него надо начинать изучение Civil 3D, тем более он бесплатный!</p>
-
+<!-- 
     <details class="course-contents">
       <summary>Содержание курса</summary>
-    </details>
+    </details> -->
+    <?php get_template_part( 'template-parts/course', 'program' ); ?>
   </div>
   <!-- end course review -->
 
