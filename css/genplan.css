@@ -122,9 +122,9 @@
 }
 
 .participation-variants .row > [class*='col-'] .panel .panel-body {
-  /*-bottom: 60px;*/
+  padding-bottom: 60px;
   position: relative;
-  min-height: 283px;
+  min-height: 330px;
 }
 
 .participation-variants .row > [class*='col-'] .panel .panel-body .checkout {

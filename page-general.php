@@ -22,7 +22,7 @@ get_header();
       <div class="col-sm-12 col-md-6 plan-description">
         <h1 class="text-uppercase">ПОЛНЫЙ КУРС ПО<br/> ГЕН.ПЛАНУ В CIVIL 3D</h1>
         <p class="plan">Реализация генплана в рамках Civil 3D различными способами и инструментами</p>
-        <a href="" class="btn btn-checkout fixed-button">В КОРЗИНУ</a>
+        <a href="#pricing" class="btn btn-checkout btn-lg fixed-button">УЗНАТЬ ЦЕНУ</a>
       </div>
     </div>
   </div>
@@ -63,11 +63,11 @@ get_header();
     </div>
 
     <div class="author-clipped">
-      <img class="" src="<?php echo get_stylesheet_directory_uri() ?>/css/author.jpg" alt=""/>
+      <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/css/author.jpg" alt=""/>
     </div>
   </div>
 
-  <div class="container participation-variants section">
+  <div class="container participation-variants section" id="pricing">
     <h2 class="text-center">ВАРИАНТЫ УЧАСТИЯ</h2>
     <div class="row">
       <div class="col-sm-6 col-md-3">
@@ -79,9 +79,10 @@ get_header();
             <p class="old-price">18 000₽</p>
           </div>
           <div class="panel-body">
-            <p>Курс по генеральноому плану состоящий из 8 разделов и 31 уроков</p>
+            <p>Полный курс генеральный план в Civil 3D</p>
+            <p> 8 разделов, количество уроков - 70, более 10 часов видео</p>
             <div class="checkout">
-              <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+              <a href="https://infrabim.pro/product/генеральный-план/" class="btn btn-checkout">В КОРЗИНУ</a>
             </div>
           </div>
         </div>
@@ -95,10 +96,11 @@ get_header();
             <p class="old-price">32 000₽</p>
           </div>
           <div class="panel-body">
-            <p>Курс по генеральноому плану состоящий из 8 разделов и 31 уроков  </p>
+            <p>Полный курс генеральный план в Civil 3D</p>
+            <p> 8 разделов, количество уроков - 70, более 10 часов видео</p>
             <p>+5 часов персональных консультаций</p>
             <div class="checkout">
-              <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+              <a href="https://infrabim.pro/product/генеральный-план-расширенный/" class="btn btn-checkout">В КОРЗИНУ</a>
             </div>
           </div>
         </div>
@@ -112,11 +114,12 @@ get_header();
             <p class="old-price">78 000₽</p>
           </div>
           <div class="panel-body">
-            <p>Курс по генеральноому плану состоящий из 8 разделов и 31 уроков  </p>
+            <p>Полный курс генеральный план в Civil 3D</p>
+            <p> 8 разделов, количество уроков - 70, более 10 часов видео</p>
             <p>+10 часов персональных консультаций  </p>
             <p> +Разработка шаблонов</p>
             <div class="checkout">
-              <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+              <a href="https://infrabim.pro/product/генеральный-план-профиссонал/" class="btn btn-checkout">В КОРЗИНУ</a>
             </div>
           </div>
         </div>
@@ -124,16 +127,17 @@ get_header();
       <div class="col-sm-6 col-md-3">
         <div class="panel panel-primary participation">
           <div class="panel-heading">
-            <p class="tarif-name">СТАНДАРТ</p>
+            <p class="tarif-name">ПРЕМИУМ</p>
             <hr>
             <p class="price">120 000₽</p>
             <p class="old-price">180 000₽</p>
           </div>
           <div class="panel-body">
-            <p>Курс по генеральноому плану состоящий из 8 разделов и 31 уроков  </p>
-            <p><b>Полное ведение конкретного проекта</b></p>
+            <p>Полный курс генеральный план в Civil 3D</p>
+            <p> 8 разделов, количество уроков - 70, более 10 часов видео</p>
+            <p><b>Полное ведение Ваших проектов</b></p>
             <div class="checkout">
-              <a href="" class="btn btn-checkout">В КОРЗИНУ</a>
+              <a href="https://infrabim.pro/product/генеральный-план-премиум/" class="btn btn-checkout">В КОРЗИНУ</a>
             </div>
           </div>
         </div>
@@ -153,8 +157,8 @@ get_header();
 
   <div class="container text-center any-questions section">
     <h2>ОСТАЛИСЬ ВОПРОСЫ? </h2>
-    <p>Если возникли вопросы по составу курса или его оплате, то задайте их в нашем сообществе <a href="/">InfraBIM.Pro</a></p>
-    <a href="" class="btn btn-checkout">ЗАДАТЬ ВОПРОС</a>
+    <p>Если возникли вопросы по составу курса или его оплате, то задайте их в нашем сообществе <a href=" https://vk.com/infrabim">InfraBIM.Pro</a></p>
+    <a href=" https://vk.com/infrabim" class="btn btn-checkout btn-lg">ЗАДАТЬ ВОПРОС</a>
   </div>
   
 </div>
