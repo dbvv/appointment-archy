@@ -36,7 +36,7 @@
   position: relative;
 }
 .author-clipped {
-  clip-path: polygon(100% 1%, 100% 100%, 18% 100%, 18% 21%, 0 0);
+  /*clip-path: polygon(100% 1%, 100% 100%, 18% 100%, 18% 21%, 0 0);*/
   position: absolute;
   right: 0;
   top: 60px;
@@ -44,12 +44,19 @@
 }
 .author-clipped img {
   max-height: 100%;
-
   /*width: auto;*/
 }
-.course-author ul {
-  list-style-type: none;
-  padding-left: 0;
+
+@media screen and (max-width: 960px) and (min-width: 560px) {
+  .author-clipped {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .author-clipped {
+    display: none;
+  }
 }
 
 .btn.btn-checkout {
